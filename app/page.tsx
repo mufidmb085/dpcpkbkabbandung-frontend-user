@@ -30,7 +30,7 @@ export default function Home() {
           <div className={"embla__container"}>
             {heroSections.map((item, index) => (
               <div className={"embla__slide"} key={index}>
-                <div className="relative">
+                <div className="relative w-full h-full">
                   <Image className={"z-0"} src={item.src} alt={item.alt} radius={"none"}  />
                   <div className="absolute z-10 inset-0 flex flex-col items-start justify-center font-bold bg-overlay/20 p-8">
                     <h1 className={"text-primary text-xl uppercase sm:text-4xl text-start"}>{item.title}</h1>

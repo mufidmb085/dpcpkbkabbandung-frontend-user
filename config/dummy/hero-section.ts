@@ -16,19 +16,19 @@
 
 export const heroSections = [
   {
-    src: "https://picsum.photos/id/142/2160/1080",
+    src: "https://app.requestly.io/delay/5000/https://picsum.photos/id/142/2160/1080",
     title: "Lorem Ipsum",
     subTitle: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
     alt: "https://picsum.photos/id/142/2160/1080/info",
   },
   {
-    src: "https://picsum.photos/id/122/2160/1080",
+    src: "https://app.requestly.io/delay/5000/https://picsum.photos/id/122/2160/1080",
     title: "Lorem Ipsum",
     subTitle: "Aliquam tincidunt mauris eu risus",
     alt: "https://picsum.photos/id/122/2160/1080/info",
   },
   {
-    src: "https://picsum.photos/id/10/2160/1080",
+    src: "https://app.requestly.io/delay/5000/https://picsum.photos/id/10/2160/1080",
     title: "Lorem Ipsum",
     subTitle: "Vestibulum auctor dapibus neque",
     alt: "https://picsum.photos/id/10/2160/1080/info",
