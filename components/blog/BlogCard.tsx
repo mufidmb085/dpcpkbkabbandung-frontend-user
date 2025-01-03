@@ -39,7 +39,7 @@ const BlogCard: React.FunctionComponent<BlogCardProps> = ({id, src, title, autho
   };
 
   return (
-    <Link className={"w-full h-full"} href={"/"}>
+    <Link className={"w-full h-full"} key={id} href={`/blog/post/${id}`}>
       <Card className={"flex w-full h-full p-0 m-0"} isPressable={true}>
         <CardHeader className={"justify-center p-0 m-0 aspect-square w-full"}>
           <Skeleton className={"aspect-square"} isLoaded={isLoaded}>

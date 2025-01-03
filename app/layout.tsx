@@ -63,7 +63,7 @@ export default function RootLayout({
             <main className="flex-grow">
               {children}
             </main>
-            <footer className="w-full flex items-center justify-center py-3">
+            <footer className="w-full flex items-center justify-center">
               <span className="text-default-600">Powered by NextUI</span>
             </footer>
           </div>
