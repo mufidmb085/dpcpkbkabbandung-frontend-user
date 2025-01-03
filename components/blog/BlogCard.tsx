@@ -50,11 +50,9 @@ const BlogCard: React.FunctionComponent<BlogCardProps> = ({id, src, title, autho
           <h1 className={"text-xl font-medium uppercase line-clamp-3"}>{title}</h1>
         </CardBody>
         <CardFooter>
-          <div className="">
-            <div className="flex flex-col gap-1 justify-start text-xs font-light">
-              <p>{author}</p>
-              <p>{date}</p>
-            </div>
+          <div className="flex flex-col gap-1 justify-center items-start text-xs font-light">
+            <p>{author}</p>
+            <p>{date}</p>
           </div>
         </CardFooter>
       </Card>
