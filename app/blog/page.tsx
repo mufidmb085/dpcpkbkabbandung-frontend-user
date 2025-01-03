@@ -14,10 +14,18 @@
  * limitations under the License.
  */
 
+import { Button } from "@nextui-org/button";
+import { posts } from "@/data/dummy/blog-post";
+import BlogCard from "@/components/blog/BlogCard";
+
 export default function BlogPage() {
   return (
-    <div>
-
+    <div className={"flex flex-col items-center justify-center p-8"}>
+      <div className={"grid grid-cols-1 gap-4 px-4 sm:grid-cols-3 sm:gap-6 sm:px-6 w-full"}>
+        {posts.map((post) => (
+          <BlogCard key={post.id} id={post.id} src={post.src} title={post.title} author={post.author} date={post.date} />
+        ))}
+      </div>
     </div>
   );
 }
